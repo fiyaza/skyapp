@@ -1,0 +1,39 @@
+@media(max-width:768px) {
+	.search {
+		display: inline-block;
+		text-align: center;
+	}
+
+	.device {
+		margin-top: 20px;
+		display: block;
+		margin: 20px auto 0 auto;
+	}
+
+	.device-small {
+		margin-bottom: 20px !important;
+	}
+
+	.footer-main {
+		ul {
+			margin-bottom: 20px;
+			text-align: center;
+		}
+
+		h4 {
+			text-align: center;
+		}
+	}
+
+	.navbar-expand-md .navbar-nav > li > a:hover, .navbar-expand-md .navbar-nav > li > a:focus, .navbar-expand-md .navbar-nav > .active > a, .navbar-expand-md .navbar-nav > .active > a:hover, .navbar-expand-md .navbar-nav > .active > a:focus {
+		padding-left: 15px;
+	}
+
+	.nav-tabs {
+		margin-top: 30px;
+	}
+
+	.block-center {
+		margin-bottom: 15px;
+	}
+}

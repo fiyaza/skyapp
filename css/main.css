@@ -1,0 +1,641 @@
+/*
+	SkyApp Bootstrap Sass Theme
+	Author: Fiyaza Mazahim
+	Version: 0.0.1
+*/
+/* BASE - Base styles, variables, mixins, etc */
+/* Font Colors */
+/* Background Colors */
+/* Showcase Area */
+/* Mixins */
+/* line 1, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_normalize.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+/* line 5, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_normalize.scss */
+.page-header {
+  margin-top: 30px;
+}
+
+/* line 9, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_normalize.scss */
+.no-pad-top {
+  padding-top: 0;
+}
+
+/* line 13, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_normalize.scss */
+.extra-pad {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 18, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_normalize.scss */
+.top-inner {
+  padding: 118px 0 30px 0;
+}
+
+/* Image Sizes */
+/* line 24, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_normalize.scss */
+.img-xsm {
+  width: 100px;
+}
+
+/* line 28, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_normalize.scss */
+.img-sm {
+  width: 200px;
+}
+
+/* line 32, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_normalize.scss */
+.img-lg {
+  width: 400px;
+}
+
+/* line 36, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_normalize.scss */
+.img-xlg {
+  width: 700px;
+}
+
+/* line 40, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_normalize.scss */
+.clearfix {
+  clear: both;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_base.scss */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666;
+}
+
+/* line 8, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_base.scss */
+a {
+  color: #00aff0;
+}
+
+/* line 12, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_base.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 16, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_base.scss */
+input, textarea, button {
+  -moz-border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+
+/* line 20, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_base.scss */
+img.device {
+  width: 100%;
+}
+
+/* line 24, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/base/_base.scss */
+img.device-small {
+  width: 70%;
+  margin-bottom: -40px;
+}
+
+/* MODULES - Individual site components */
+/* Lists */
+/* line 3, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.list, .list-feature {
+  margin-bottom: 30px;
+}
+
+/* line 7, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.list-feature {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+/* line 13, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.list-feature li {
+  line-height: 3.6em;
+  border-bottom: 1px solid #cccccc !important;
+  overflow: auto;
+}
+
+/* line 19, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.list-feature li:last-child {
+  border: 0;
+}
+
+/* line 23, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.list-feature span {
+  vertical-align: top;
+  padding-top: 9px;
+  font-size: 120%;
+}
+
+/* line 29, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.list-feature i {
+  margin-top: -9px;
+  margin-right: 5px;
+}
+
+/* line 35, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.list-comments {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 40, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.list-comments li {
+  padding: 10px 0 5px 0;
+  border-bottom: 1px solid #cccccc !important;
+  overflow: auto !important;
+}
+
+/* line 46, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.list-comments li:last-child {
+  border: 0 !important;
+}
+
+/* line 50, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.list-comments img {
+  margin-right: 10px;
+}
+
+/* Icons */
+/* line 56, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.fa-2 {
+  font-size: 18px;
+}
+
+/* line 60, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.fa-3 {
+  font-size: 24px;
+}
+
+/* line 64, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.fa-4 {
+  font-size: 27px;
+}
+
+/* line 68, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.fa-5 {
+  font-size: 35px;
+}
+
+/* line 72, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.fa-6 {
+  font-size: 40px !important;
+}
+
+/* line 76, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.fa-primary {
+  color: #00aff0;
+}
+
+/* line 80, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.fa-border {
+  border: 1px solid #00aff0 !important;
+  -moz-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  border-radius: 5px !important;
+  padding: 13px 15px !important;
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+/* Headings */
+/* line 90, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.heading-primary, .heading-primary-a {
+  color: #00aff0;
+}
+
+/* line 94, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.heading-primary-a {
+  border-bottom: 2px solid #00aff0 !important;
+}
+
+/* line 99, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.heading-secondary, .heading-secondary-a {
+  color: #7fba00;
+}
+
+/* line 103, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.heading-secondary-a {
+  border-bottom: 2px solid #7fba00 !important;
+}
+
+/* line 108, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.heading-light, .heading-light-a {
+  color: #e4eef2;
+}
+
+/* line 112, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.heading-light-a {
+  border-bottom: 2px solid #e4eef2 !important;
+}
+
+/* line 117, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.heading-dark, .heading-dark-a {
+  color: #2b5464;
+}
+
+/* line 121, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.heading-dark-a {
+  border-bottom: 2px solid #2b5464 !important;
+}
+
+/* Emphasis Text */
+/* line 128, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.em-primary {
+  color: #00aff0;
+}
+
+/* line 132, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.em-secondary {
+  color: #7fba00;
+}
+
+/* line 136, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.em-light {
+  color: #e4eef2;
+}
+
+/* line 140, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_typography.scss */
+.em-dark {
+  color: #2b5464;
+}
+
+/* Blocks */
+/* line 3, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
+  padding: 15px;
+  /* margin-bottom: 15px; */
+}
+
+/* line 7, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 12, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block iframe, .block-primary iframe, .block-secondary iframe, .block-light iframe, .block-dark iframe {
+  width: 100%;
+}
+
+/* line 17, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block-primary {
+  background: #00aff0 !important;
+  color: #ffffff !important;
+}
+
+/* line 22, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block-secondary {
+  background: #7fba00 !important;
+  color: #ffffff !important;
+}
+
+/* line 27, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block-light {
+  background: #e4eef2 !important;
+  color: #666666 !important;
+}
+
+/* line 32, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block-dark {
+  background: #2b5464 !important;
+  color: #ffffff !important;
+}
+
+/* line 37, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block-center {
+  text-align: center !important;
+}
+
+/* line 41, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block-image img {
+  width: 100%;
+}
+
+/* line 45, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block-border {
+  border: 1px solid #cccccc !important;
+}
+
+/* line 50, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block-primary-head h3 {
+  padding: 15px 5px 15px 10px;
+  background: #00aff0 !important;
+  color: #ffffff !important;
+  margin: 0;
+  font-size: 18px;
+}
+
+/* line 57, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block-primary-head .block-content {
+  border: 1px solid #00aff0 !important;
+  padding: 10px;
+}
+
+/* line 64, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block-icon h3 {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 69, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block-icon .icon {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+}
+
+/* line 75, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_blocks.scss */
+.block-icon .icon-content {
+  float: left;
+  width: 70%;
+}
+
+/* Buttons */
+/* line 3, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_buttons.scss */
+.btn-link {
+  color: #666666;
+}
+
+/* line 7, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_buttons.scss */
+.btn-primary {
+  background: #00aff0 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+}
+
+/* line 12, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_buttons.scss */
+.btn-primary:hover {
+  background: #24c4ff;
+  border: 2px solid #ffffff !important;
+}
+
+/* line 17, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_buttons.scss */
+.btn-secondary {
+  background: #e4eef2 !important;
+  color: #666666 !important;
+  border: 0;
+}
+
+/* line 22, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_buttons.scss */
+.btn-secondary:hover {
+  background: #c2d8e1;
+  color: #666666;
+}
+
+/* Sections */
+/* line 3, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_sections.scss */
+section {
+  padding: 30px 0;
+}
+
+/* line 7, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_sections.scss */
+.section-showcase {
+  height: 400px;
+  background: url("../img/showcase.jpg") no-repeat top center;
+}
+
+/* line 11, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_sections.scss */
+.section-showcase .showcase-content {
+  padding: 90px 15px;
+  text-align: center;
+}
+
+/* line 16, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_sections.scss */
+.section-showcase h1 {
+  color: #00aff0;
+}
+
+/* line 21, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_sections.scss */
+.section-primary, .section-primary-a, .section-primary-b {
+  background: #00aff0 !important;
+  color: #ffffff !important;
+}
+
+/* line 25, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_sections.scss */
+.section-primary-a {
+  border-top: 4px solid #7fba00 !important;
+}
+
+/* line 30, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_sections.scss */
+.section-primary-b {
+  border-bottom: 4px solid #7fba00 !important;
+}
+
+/* line 35, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_sections.scss */
+.section-secondary {
+  background: #7fba00 !important;
+  color: #ffffff !important;
+}
+
+/* line 39, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_sections.scss */
+.section-light {
+  background: #e4eef2 !important;
+  color: #666666 !important;
+}
+
+/* line 43, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_sections.scss */
+.section-dark {
+  background: #2b5464 !important;
+  color: #ffffff !important;
+}
+
+/* Carousel */
+/* line 3, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_components.scss */
+.carousel {
+  margin-bottom: 20px;
+}
+
+/* line 7, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_components.scss */
+.carousel img {
+  padding: 3px;
+  border: 1px solid #cccccc !important;
+}
+
+/* Blockquote */
+/* line 14, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_components.scss */
+.blockquote {
+  border-right: 5px solid #ffffff !important;
+  padding-right: 15px;
+}
+
+/* Tabs */
+/* line 21, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_components.scss */
+.tab-pane {
+  padding: 20px 10px;
+  -moz-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  border-radius: 5px !important;
+  border: 1px solid #00aff0 !important;
+  margin-bottom: 20px;
+}
+
+/*
+.tab-primary .nav-tabs > a.nav-link.active, 
+.tab-primary .nav-tabs > .nav-item.show .nav-link, 
+.tab-primary .nav-tabs > li.nav-item > a:hover, 
+.tab-primary .nav-tabs > li.nav-item > a:focus, 
+.tab-primary .tab-pane {
+	@include add-background($primary-color);
+} */
+/* Searchbox */
+/* line 3, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_forms.scss */
+.search {
+  width: 100%;
+}
+
+/* line 6, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_forms.scss */
+.search h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 11, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_forms.scss */
+.search input {
+  border: 0;
+  height: 50px;
+  width: 80%;
+  border: 2px solid #00aff0;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+/* line 21, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/modules/_forms.scss */
+.search button {
+  border: 0;
+  background: none;
+  padding: 0;
+  vertical-align: top;
+  margin-left: -4px;
+}
+
+/* LAYOUTS - Page layout styles */
+/* Navbar */
+/* line 3, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_nav.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+  /* @include add-border(1px, #e7e7e7, 'right-left'); */
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background: #ffffff;
+  /* margin-bottom: 30px; */
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+/* line 14, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_nav.scss */
+.navbar a {
+  color: #00aff0;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  padding-bottom: 24px;
+  padding-top: 20px;
+}
+
+/* line 23, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_nav.scss */
+.navbar-expand-md .navbar-nav > li > a:hover, .navbar-expand-md .navbar-nav > li > a:focus,
+.navbar-expand-md .navbar-nav > .active > a, .navbar-expand-md .navbar-nav > .active > a:hover, .navbar-expand-md .navbar-nav > .active > a:focus {
+  background: #00aff0 !important;
+  color: #ffffff !important;
+}
+
+/* Footer */
+/* line 3, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_footer.scss */
+.footer-main {
+  background: #2b5464 !important;
+  color: #ffffff !important;
+  border-top: 5px solid #7fba00 !important;
+  padding: 30px 0;
+  z-index: 100;
+}
+
+/* line 9, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_footer.scss */
+.footer-main ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 14, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_footer.scss */
+.footer-main li {
+  line-height: 1.8em;
+  list-style: none;
+}
+
+/* line 19, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_footer.scss */
+.footer-main a {
+  color: #ffffff;
+}
+
+/* Blog */
+/* line 3, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_blog.scss */
+.blog-post {
+  border-top: 1px solid #cccccc !important;
+  border-right: 1px solid #cccccc !important;
+  border-left: 1px solid #cccccc !important;
+  padding: 15px;
+}
+
+/* line 8, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_blog.scss */
+.blog-post h2.page-header {
+  margin-top: 5px !important;
+}
+
+/* line 13, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_blog.scss */
+.blog-featured {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 18, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_blog.scss */
+.post-meta {
+  background: #f3f3f3;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #cccccc !important;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  /* line 2, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_mobile.scss */
+  .search {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 7, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_mobile.scss */
+  .device {
+    margin-top: 20px;
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+  /* line 13, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_mobile.scss */
+  .device-small {
+    margin-bottom: 20px !important;
+  }
+  /* line 18, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_mobile.scss */
+  .footer-main ul {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /* line 23, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_mobile.scss */
+  .footer-main h4 {
+    text-align: center;
+  }
+  /* line 28, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_mobile.scss */
+  .navbar-expand-md .navbar-nav > li > a:hover, .navbar-expand-md .navbar-nav > li > a:focus,
+  .navbar-expand-md .navbar-nav > .active > a, .navbar-expand-md .navbar-nav > .active > a:hover, .navbar-expand-md .navbar-nav > .active > a:focus {
+    padding-left: 15px;
+  }
+  /* line 32, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_mobile.scss */
+  .nav-tabs {
+    margin-top: 30px;
+  }
+  /* line 36, ../../../../../../../../../../../../../Users/fiyazamazahim/Sites/skyapp/scss/layouts/_mobile.scss */
+  .block-center {
+    margin-bottom: 15px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

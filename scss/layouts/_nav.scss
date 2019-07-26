@@ -1,0 +1,26 @@
+/* Navbar */
+
+.navbar {
+	width: 90%;
+	margin: auto;
+	/* @include add-border(1px, #e7e7e7, 'right-left'); */
+	border-color: #e7e7e7;
+	min-height: 60px;
+	background: #ffffff;
+	/* margin-bottom: 30px; */
+	padding-bottom: 0;
+	padding-top: 0;
+
+	a {
+		color: $primary-color;
+		font-size: 20px;
+		letter-spacing: -0.5px;
+		padding-bottom: 24px;
+		padding-top: 20px;
+	}
+}
+
+.navbar-expand-md .navbar-nav > li > a:hover, .navbar-expand-md .navbar-nav > li > a:focus, 
+.navbar-expand-md .navbar-nav > .active > a, .navbar-expand-md .navbar-nav > .active > a:hover, .navbar-expand-md .navbar-nav > .active > a:focus {
+	@include add-background($primary-color);
+}
